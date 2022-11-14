@@ -1,0 +1,59 @@
+body {
+    padding: 5rem;
+}
+
+.todo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo {
+    padding: 1rem;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.todo:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.todo-form>form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.completed {
+    opacity: 0.5;
+    background-color: gray;
+}
+
+.todo-header {
+    display: flex;
+}
+
+.todo-header>button {
+    height: min-content;
+    margin-left: auto;
+}
+
+.todo.loading {
+    opacity: 0.5;
+    background-color: gray;
+}
+
+.todo.loading button {
+    display: none;
+}
+
+.loading>.loader {
+    //Add styles for loader here
+}

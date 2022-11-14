@@ -15,7 +15,7 @@
       <h1>My #TODO List</h1>
     </div>
     <div class="todo-form">
-      <form>
+      <form onsubmit="addToDo(event)">
         <label for="title">Title</label>
         <input type="text" name="title" minlength="3" />
 
@@ -25,18 +25,6 @@
         <button type="submit">Add TODO</button>
       </form>
     </div>
-    <div class="todo-container" id="todo-container">
-      <div class="todo" onclick="">
-        <div class="todo-header">
-          <h2>Create TODO project</h2>
-          <button aria-label="delete item" onclick="">X</button>
-        </div>
-        <div class="todo-description">
-          I want to create a project for justice redeemed that uses JavaScript,
-          HTML, and CSS to create a list of TODO items. It should use flexbox
-          and look really cool.
-        </div>
-      </div>
-    </div>
+    <div class="todo-container" id="todo-container"></div>
   </body>
 </html>
