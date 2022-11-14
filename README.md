@@ -2,14 +2,37 @@
 
 This is a project for the Justice Redeemed Boot Camp
 
+If you have not already, complete the [first part](https://github.com/ewlahay/ToDoList_Project) before continuing on to this.
+
 The goal of this project is to create a dynamic TODO list in the browser. You will use JavaScript to add items to the page, alongside CSS to style and format the HTML.
+
+But you will also sync your changes with a server using AJAX.
+
+## Key Skills:
+
+- AJAX
+- REST APIs
+- CSS Loaders
 
 Steps:
 
 1. Clone the project using Git
 2. Create your own repository in GitHub
 3. `git remote add origin git@github.com:<your_github_username>/<your_repo_name>.git`
-4. Complete the project!
+4. Go to https://todo.ctkraleigh.com/docs and generate a token. Save this and set the `token` variable in javascript.js to your generated tokens value
+5. Use the API documentation and your wits to implement the createToDo, deleteToDo, and updateToDo functions
+6. Add CSS styling to show a loader over a TODO block when an API call is in progress
+7. Good luck!
+
+## Notes
+
+- When an API call is in progress, the associated TODO block should be in a loading state
+- Clicking the X icon should remove the TODO block
+- Clicking anywhere else on the block should toggle the status of that TODO
+
+## Hints:
+
+- Use `position: absolute;` to position the loader element on top of other elements
 
 You should be able to add a TODO item:
 
@@ -26,15 +49,3 @@ Remove TODOs from the list:
 The layout for the project should look like below:
 
 ![](https://github.com/ewlahay/ToDoList_Project/blob/main/illustrations/addMultiple.gif)
-
-## Notes
-
-- Clicking the X icon should remove the TODO block
-- Clicking anywhere else on the block should toggle the status of that TODO
-- Blocks should be of equal size. If text is too long to show, it should be cut off.
-
-## Hints:
-
-- Use the CSS box-shadow property to give your TODO blocks more depth.
-  - Increase the shadow size on hover to give a popup effect
-- The form element has an event that is triggered when you click on the submit button
