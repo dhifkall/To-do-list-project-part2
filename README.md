@@ -33,6 +33,7 @@ Steps:
 ## Hints:
 
 - Use `position: absolute;` to position the loader element on top of other elements
+- You can hide or show the loader by adding the `loading` class to the TODO element
 
 You should be able to add a TODO item:
 
