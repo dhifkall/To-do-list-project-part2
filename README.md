@@ -37,16 +37,16 @@ Steps:
 
 You should be able to add a TODO item:
 
-![](https://github.com/ewlahay/ToDoList_Project/blob/main/illustrations/addTODO.gif?raw=true)
+![](https://github.com/ewlahay/ToDoList_Project_Part_2/blob/main/illustrations/addTODO.gif?raw=true)
 
 Mark a TODO as done:
 
-![](https://raw.githubusercontent.com/ewlahay/ToDoList_Project/main/illustrations/markAsDone.gif)
+![](https://raw.githubusercontent.com/ewlahay/ToDoList_Project_Part_2/main/illustrations/markAsDone.gif)
 
 Remove TODOs from the list:
 
-![](https://raw.githubusercontent.com/ewlahay/ToDoList_Project/main/illustrations/removeTODO.gif)
+![](https://raw.githubusercontent.com/ewlahay/ToDoList_Project_Part_2/main/illustrations/removeTODO.gif)
 
 The layout for the project should look like below:
 
-![](https://github.com/ewlahay/ToDoList_Project/blob/main/illustrations/addMultiple.gif)
+![](https://github.com/ewlahay/ToDoList_Project_Part_2/blob/main/illustrations/addMultiple.gif)
