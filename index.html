@@ -17,10 +17,10 @@
     <div class="todo-form">
       <form onsubmit="addToDo(event)">
         <label for="title">Title</label>
-        <input type="text" name="title" minlength="3" />
+        <input type="text" name="title" minlength="3" required />
 
         <label for="description">Description</label>
-        <textarea name="description" minlength="3"></textarea>
+        <textarea name="description" minlength="3" required></textarea>
 
         <button type="submit">Add TODO</button>
       </form>

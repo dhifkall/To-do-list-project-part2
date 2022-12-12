@@ -6,7 +6,7 @@ If you have not already, complete the [first part](https://github.com/ewlahay/To
 
 The goal of this project is to create a dynamic TODO list in the browser. You will use JavaScript to add items to the page, alongside CSS to style and format the HTML.
 
-But you will also sync your changes with a server using AJAX.
+But you will also sync your changes with a server using AJAX, so that when you reload the page, your list of TODOs isn't lost.
 
 ## Key Skills:
 
