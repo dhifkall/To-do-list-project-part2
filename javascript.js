@@ -34,14 +34,16 @@ function createElement(title, description, id) {
   mainDiv.innerHTML = `
         <div class="loader"></div>
         <div class="todo-header">
-            <h2>${title}</h2>
+            <h2></h2>
             <button aria-label="delete item" onClick="removeToDo(event, ${id})">
             X
           </button>
         </div>
         <div class="todo-description">
-            ${description}
+           
         </div>`;
+  mainDiv.getElementsByTagName("h2")[0].innerText = title;
+  mainDiv.getElementsByClassName("todo-description")[0].innerText = description;
   return mainDiv;
 }
 
